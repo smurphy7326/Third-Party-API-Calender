@@ -12,3 +12,7 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
     })
 })
+
+
+// Local Storage
+$("hour8 . description").val(localStorage.getItem("hour 8"));
