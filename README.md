@@ -21,5 +21,9 @@
 * Added more hours on the HMTL to make it until 5PM
 * Added a link to the javascript that I wrote
 
-### Version 1.5 - 
-* Added the the javascript 
+### Version 1.5 - Javascript Additions
+* Added the the javascript for bloack time
+
+### Version 1.6 - 
+* Added a function to make the text appear in each hour
+
