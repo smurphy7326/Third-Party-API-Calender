@@ -28,7 +28,7 @@
 * Added a function to make the text appear in each hour
 * Made the hours specific in Javascript
 
-### Version 1.7 - 
+### Version 1.7 - Changing else if
 * Fixed the else if and else sections in the javascript
 
 ### Version 1.8 - 
