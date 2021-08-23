@@ -24,6 +24,13 @@
 ### Version 1.5 - Javascript Additions
 * Added the the javascript for bloack time
 
-### Version 1.6 - 
+### Version 1.6 - Specific Javascript
 * Added a function to make the text appear in each hour
+* Made the hours specific in Javascript
+
+### Version 1.7 - 
+* Fixed the else if and else sections in the javascript
+
+### Version 1.8 - 
+* 
 

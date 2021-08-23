@@ -25,18 +25,18 @@ $(document).ready(function () {
 
             // Check time with help from AskBCS
             if (blockTime < timeNow) {
-                $timeNow(this).removeClass("past");
+                $timeNow(this).removeClass("future");
                 $(this).removeClass("present");
-                $(this).removeClass("future");
+                $(this).removeClass("past");
             }
             else if (blockTime === timeNow) {
                 $(this).removeClass("past");
-                $(this).removeClass("present");
                 $(this).removeClass("future");
+                $(this).removeClass("present");
             }
             else {
-                $(this).removeClass("past");
                 $(this).removeClass("present");
+                $(this).removeClass("past");
                 $(this).removeClass("future");
             }
         })
