@@ -31,6 +31,14 @@
 ### Version 1.7 - Changing else if
 * Fixed the else if and else sections in the javascript
 
-### Version 1.8 - 
-* 
+### Version 1.8 - Streamlining
+* Making the style.css and javascript neater
+* Made sure the colors were correct on the webpage
 
+### Version 1.9 - Final pushes
+* Added photos on the README
+* Double checked everything was working and spell checked
+
+![image](./assets/imgaes/week-5-api-color-test.jpg)
+
+[Third-Party-API](https://smurphy7326.github.io/Third-Party-API-Calender/)
