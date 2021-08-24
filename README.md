@@ -35,10 +35,10 @@
 * Making the style.css and javascript neater
 * Made sure the colors were correct on the webpage
 
-### Version 1.9 - Final pushes
+### Version 1.9 - Images
 * Added photos on the README
 * Double checked everything was working and spell checked
 
-![image](./assets/imgaes/week-5-api-color-test.jpg)
+![image](./assets/images/week-5-api-color-test.jpg)
 
 [Third-Party-API](https://smurphy7326.github.io/Third-Party-API-Calender/)
