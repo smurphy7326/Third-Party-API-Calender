@@ -4,19 +4,21 @@ var displayTime = document.querySelector("#currentDay");
 var currentTime = moment();
 displayTime.textContent = currentTime.format("dddd MMMM Do HH:mm A");
 
-// converting all the hours as variables to the rows id 
+// converting all the hours as variables to the rows id  
+// Ask BCS helped with converting the hours to military time for the second number and helping with the console.log under the current hour
 var hour1 = 8;
 var hour2 = 9;
 var hour3 = 10;
 var hour4 = 11;
 var hour5 = 12;
-var hour6 = 1;
-var hour7 = 2;
-var hour8 = 3;
-var hour9 = 4;
-var hour10 = 5;
+var hour6 = 13;
+var hour7 = 14;
+var hour8 = 15;
+var hour9 = 16;
+var hour10 = 17;
 
-var currentHour = moment().format('hour');
+var currentHour = moment().hour();
+console.log(currentHour)
 
 // Color changing per hour
 if (currentHour < hour1) {
