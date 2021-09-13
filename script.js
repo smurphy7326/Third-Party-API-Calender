@@ -10,11 +10,11 @@ var hour2 = 9;
 var hour3 = 10;
 var hour4 = 11;
 var hour5 = 12;
-var hour6 = 13;
-var hour7 = 14;
-var hour8 = 15;
-var hour9 = 16;
-var hour10 = 17;
+var hour6 = 1;
+var hour7 = 2;
+var hour8 = 3;
+var hour9 = 4;
+var hour10 = 5;
 
 var currentHour = moment().format('hour');
 
