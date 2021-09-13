@@ -1,27 +1,103 @@
 // Javascript section 
 // Toady's Date and Time through Moment.js
-var currentDay = moment().format("dddd, MMMM Do YYYY");
+var displayTime = document.querySelector("#currentDay");
+var currentTime = moment();
+displayTime.textContent = currentTime.format("dddd MMMM Do HH:mm A");
 
-// Global Variables
-var hourArr = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
-var timeChange;
+// converting all the hours as variables to the rows id 
+var hour1 = 8;
+var hour2 = 9;
+var hour3 = 10;
+var hour4 = 11;
+var hour5 = 12;
+var hour6 = 13;
+var hour7 = 14;
+var hour8 = 15;
+var hour9 = 16;
+var hour10 = 17;
 
-// color code based on the time that it is 
-var colorChange = function() {
-    $.each(hourArr, function(index, hour) {
-        var minutesChange = moment().diff(moment().hour(hour).minutes(0), 'minutes');
-        if (minutesChange < 0) {
-            $("." + hour + ".event").addClass("future");
-        } else if (minutesChange > 59) {
-            $("." + hour + ".event").removeClass("present");
-            $("." + hour + ".event").addClass("past");
-        } else {
-            $("." + hour + ".event").removeClass("future");
-            $("." + hour + ".event").addClass("present");
-        }
-    });
+var currentHour = moment().format('hour');
+
+// Color changing per hour
+if (currentHour < hour1) {
+    $("#textEntry1").addClass("future");
+} else if (currentHour > hour1) {
+    $("#textEntry1").addClass("past");
+} else if (currentHour = hour1) {
+    $("#textEntry1").addClass("present");
 }
 
+if (currentHour < hour2) {
+    $("#textEntry2").addClass("future");
+} else if (currentHour > hour2) {
+    $("#textEntry2").addClass("past");
+} else if (currentHour = hour2) {
+    $("#textEntry2").addClass("present");
+}
+
+if (currentHour < hour3) {
+    $("#textEntry3").addClass("future");
+} else if (currentHour > hour3) {
+    $("#textEntry3").addClass("past");
+} else if (currentHour = hour3) {
+    $("#textEntry3").addClass("present");
+}
+
+if (currentHour < hour4) {
+    $("#textEntry4").addClass("future");
+} else if (currentHour > hour4) {
+    $("#textEntry4").addClass("past");
+} else if (currentHour = hour4) {
+    $("#textEntry4").addClass("present");
+}
+
+if (currentHour < hour5) {
+    $("#textEntry5").addClass("future");
+} else if (currentHour > hour5) {
+    $("#textEntry5").addClass("past");
+} else if (currentHour = hour5) {
+    $("#textEntry5").addClass("present");
+}
+
+if (currentHour < hour6) {
+    $("#textEntry6").addClass("future");
+} else if (currentHour > hour6) {
+    $("#textEntry6").addClass("past");
+} else if (currentHour = hour6) {
+    $("#textEntry6").addClass("present");
+}
+
+if (currentHour < hour7) {
+    $("#textEntry7").addClass("future");
+} else if (currentHour > hour7) {
+    $("#textEntry7").addClass("past");
+} else if (currentHour = hour7) {
+    $("#textEntry7").addClass("present");
+}
+
+if (currentHour < hour8) {
+    $("#textEntry8").addClass("future");
+} else if (currentHour > hour8) {
+    $("#textEntry8").addClass("past");
+} else if (currentHour = hour8) {
+    $("#textEntry8").addClass("present");
+}
+
+if (currentHour < hour9) {
+    $("#textEntry9").addClass("future");
+} else if (currentHour > hour9) {
+    $("#textEntry9").addClass("past");
+} else if (currentHour = hour9) {
+    $("#textEntry9").addClass("present");
+}
+
+if (currentHour < hour10) {
+    $("#textEntry10").addClass("future");
+} else if (currentHour > hour10) {
+    $("#textEntry10").addClass("past");
+} else if (currentHour = hour10) {
+    $("#textEntry10").addClass("present");
+}
 // The text is still there when the page is refreshed
 $('#textEntry1').val(localStorage.getItem('hour1'));
 $('#textEntry2').val(localStorage.getItem('hour2'));
