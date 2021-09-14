@@ -15,6 +15,12 @@ This was a Third Party API Challenge that used different technologies like Boots
 * jQuery
 * Local Storage
 
-![image](./assets/images/week-5-api-color-test.jpg)
+### Time Colors Working
+![image](./assets/images/colors-working.jpg)
+
+### Save Function working
+![image](./assets/images/save-button-working.jpg)
+
+### Deployed Link
 
 [Third-Party-API](https://smurphy7326.github.io/Third-Party-API-Calender/)
