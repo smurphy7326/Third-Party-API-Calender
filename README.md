@@ -2,42 +2,18 @@
 
 ## Purpose
 
-### Version 1
+In this project, I made a simple calender application that allows the user to create a planner that saves events for each hour of the day.
 
-### Version 1.1 - 
+This was a Third Party API Challenge that used different technologies like Bootstrap Grids, and local storage to save and keep the events even after the page is refreshed. 
 
-### Version 1.2 - Changing values
-* Updated the style.css for smaller screens to work
-* Updated the HTML in order to have 8 hours on the screen
-* Moved the files around to make it more streamline
-* Added a javascript file to the repo
-* Updated the javascript with help from AskBCS to get started
+## Skills Used
 
-### Version 1.3 - Hour 8
-* Updated index.HTML with hour 8
-* Updated the javascript for hour 8
-
-### Version 1.4 - More Hours
-* Added more hours on the HMTL to make it until 5PM
-* Added a link to the javascript that I wrote
-
-### Version 1.5 - Javascript Additions
-* Added the the javascript for bloack time
-
-### Version 1.6 - Specific Javascript
-* Added a function to make the text appear in each hour
-* Made the hours specific in Javascript
-
-### Version 1.7 - Changing else if
-* Fixed the else if and else sections in the javascript
-
-### Version 1.8 - Streamlining
-* Making the style.css and javascript neater
-* Made sure the colors were correct on the webpage
-
-### Version 1.9 - Images
-* Added photos on the README
-* Double checked everything was working and spell checked
+* HTML
+* CSS
+* Bootstrap
+* Moment.js
+* jQuery
+* Local Storage
 
 ![image](./assets/images/week-5-api-color-test.jpg)
 
