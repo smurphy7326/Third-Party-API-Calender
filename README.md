@@ -2,7 +2,7 @@
 
 ## Purpose
 
-In this project, I made a simple calender application that allows the user to create a planner that saves events for each hour of the day.
+In this project, I made a simple calender application that will run in the browser that allows the user to create a planner that saves events for each hour of the day.
 
 This was a Third Party API Challenge that used different technologies like Bootstrap Grids, and local storage to save and keep the events even after the page is refreshed. 
 
@@ -15,10 +15,10 @@ This was a Third Party API Challenge that used different technologies like Boots
 * jQuery
 * Local Storage
 
-### Time Colors Working
+#### Time Colors Working
 ![image](./assets/images/colors-working.jpg)
 
-### Save Function working
+#### Save Function working
 ![image](./assets/images/save-button-working.jpg)
 
 ### Deployed Link
